@@ -1,0 +1,80 @@
+/* Section da info */
+.info {
+    width: 321px;
+    height: 407px;
+    background-color: var(--color-grey-3);
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 32px;
+}
+
+.info > h1 {
+    width: 148px;
+    background-color: var(--color-grey-4);
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > p.description {
+    background-color: var(--color-grey-4);
+    width: 231px;
+    padding: 4px;
+}
+
+.info > p.slogan {
+    background-color: var(--color-grey-4);
+    padding: 4px;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+
+/* Section do login */
+.login {
+    width: 393px;
+    height: 407px;
+    background-color: var(--color-grey-6);
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#login > h2 {
+    width: 119px;
+    padding: 4px;
+    background-color: var(--color-grey-2);
+    display: flex;
+    justify-content: center;
+    margin-top: 77px;
+    margin-left: 76px;
+}
+
+#login input {
+    width: 240px;
+}
+
+#login .fgtPassword {
+    border: none;
+    width: 119px;
+    margin-left: 197px;
+    margin-top: 12px;
+    background-color: var(--color-grey-2);
+}
+
+button.fgtPassword:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+button.loginButton {
+    width: 240px;
+    height: 44px;
+    margin-left: 76px;
+    margin-top: 34px;
+    background-color: var(--color-grey-3);
+}
